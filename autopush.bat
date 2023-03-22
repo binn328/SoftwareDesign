@@ -1,5 +1,5 @@
 git add *
-git commit -m "auto push2"
+git commit -m "auto push"
 git push origin main
 
 pause
