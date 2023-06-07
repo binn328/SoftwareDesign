@@ -706,8 +706,3 @@ class OddCalculator {
         return sortedCardList;
     }
 }
-/*
-https://www.codeproject.com/Articles/8199/Poker-logic-in-C
-https://www.cardschat.com/poker/strategy/odds/
-https://www.cardschat.com/poker/tools/poker-odds-calculator/
- */
