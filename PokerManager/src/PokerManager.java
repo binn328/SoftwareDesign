@@ -23,6 +23,9 @@ public class PokerManager {
 
     /* 공유패 추가 */
     public void addCommunityCard(int n, char s) {
+        if(communutyCards.size() > 4) {
+            return;
+        }
         if (cardDeck.isThere(n, s))
             communutyCards.add(cardDeck.removeCard(n, s));
     }
@@ -180,6 +183,8 @@ class Player {
 
     /* 핸드에 카드 집어넣기 */
     public void pushHand(Card card) {
+        if(hands.size() > 1)
+            return;
         hands.addLast(card);
     }
 
